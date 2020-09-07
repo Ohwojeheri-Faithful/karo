@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 30px 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/privacy_protection01.png);
+    height: 800px;
+}
+
+li {
+   list-style: none;
+    padding: 0 20px;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.list {
+    display: flex;
+}
+
+button {
+    background-color: rgb(17, 184, 226);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    color:rgb(17, 184, 226);
+    background-color: white;
+}
+
+/*lead*/
+
+div.lead {
+    color: white;
+    margin-top: 120px;
+}
+
+.lead-btn {
+    padding: 15px 60px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+p {
+    margin-left: 35px;
+    font-style: italic;
+
+}
+
+/*About*/
+
+#about {
+    display: flex;
+}
